@@ -1,0 +1,16 @@
+.about {
+    max-width: 80%;
+    height: 400px;
+    display: flex;
+    background: #FBFBFB;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+.about-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
