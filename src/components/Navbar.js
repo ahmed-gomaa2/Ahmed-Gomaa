@@ -23,25 +23,25 @@ class Navbar extends Component {
                 <ui className="nav-list">
                     <div className="nav-header">
                         <li className="nav-item">
-                            <NavLink exact to={'/'} activeClassName={'nav-link-active'} className="nav-link"><span className={'special-letter'}>A</span>hmed <span className={'special-letter'}>G</span>omaa</NavLink>
+                            <a href={'/'}  className="nav-link"><span className={'special-letter'}>A</span>hmed <span className={'special-letter'}>G</span>omaa</a>
                         </li>
                     </div>
 
                     <div className={`sub-links ${this.state.opened ? 'sub-links-active' : ''}`}>
                         <li className="nav-item">
-                            <NavLink exact to={'/about'} activeClassName={'nav-link-active'} className="nav-link">About</NavLink>
+                            <a  href={'/about'}  className="nav-link">About</a>
                         </li>
                         <li className="nav-item">
-                            <NavLink exact to={'/skills'} activeClassName={'nav-link-active'} className="nav-link">Skills</NavLink>
+                            <a  href={'/skills'}  className="nav-link">Skills</a>
                         </li>
                         <li className="nav-item">
-                            <NavLink exact to={'/projects'} activeClassName={'nav-link-active'} className="nav-link">Projects</NavLink>
+                            <a  href={'/projects'}  className="nav-link">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <NavLink exact to={'/education'} activeClassName={'nav-link-active'} className="nav-link">Education</NavLink>
+                            <a  href={'/education'}  className="nav-link">Education</a>
                         </li>
                         <li className="nav-item">
-                            <NavLink exact to={'/contact'} activeClassName={'nav-link-active'} className="nav-link">Contact</NavLink>
+                            <a  href={'/contact'}  className="nav-link">Contact</a>
                         </li>
                     </div>
 

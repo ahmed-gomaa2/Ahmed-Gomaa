@@ -1,16 +1,30 @@
 .about {
-    max-width: 80%;
-    height: 400px;
+    background-image: url('../images/about.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 400px;
     display: flex;
-    background: #FBFBFB;
-    justify-content: space-between;
     align-items: center;
-    overflow: hidden;
-    margin: auto;
+    color: white;
+    padding: 20px;
+    filter: grayscale(100%);
 }
 
-.about-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+
+.about-text {
+    margin: 0 0 0 auto;
+    text-align: left;
+    max-width: 330px;
+    background: inherit;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: invert(1);
 }
+
+.about-body {
+    font-size: large;
+}
+

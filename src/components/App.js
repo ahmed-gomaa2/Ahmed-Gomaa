@@ -6,15 +6,20 @@ import {BrowserRouter, Route} from "react-router-dom";
 import * as actions from '../actions'
 import Navbar from "./Navbar";
 import About from "./About";
+import './css/app.css'
+import Skills from "./Skills";
 
 class App extends React.Component {
     render() {
         return (
-            <BrowserRouter>
-                <Route exact component={() => <Navbar/>} />
-                <Route exact path={'/about'} component={() => <About/>}/>
+            <div className="app">
+                <div className={'app-body'}>
+                    <Navbar />
+                    <About />
+                    <Skills />
+                </div>
+            </div>
 
-            </BrowserRouter>
         )
     }
 }

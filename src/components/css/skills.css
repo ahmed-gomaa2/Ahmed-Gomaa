@@ -1,0 +1,55 @@
+.skills {
+    background: white;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.skills-header {
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: calc((100% - 129px)/2);
+}
+
+.skill-details {
+    position: relative;
+    font-size: 15px;
+    flex-grow: 1;
+    width: 40%;
+    margin: 20px;
+    transition: width ease .5s;
+}
+
+.meter {
+    position: relative;
+    border: lightgray 1px solid;
+
+    /*box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);*/
+}
+
+.meter > span {
+    display: block;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.skill-percent {
+    position: absolute;
+    top: -5px;
+    right: 0;
+}
+
+@media only screen and (max-width: 1040px) {
+    .skill-details{
+        width: 100%;
+    }
+}
