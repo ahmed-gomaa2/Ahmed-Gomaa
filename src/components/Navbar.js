@@ -23,19 +23,19 @@ class Navbar extends Component {
                 <ui className="nav-list">
                     <div className="nav-header">
                         <li className="nav-item">
-                            <a href={'/'}  className="nav-link"><span className={'special-letter'}>A</span>hmed <span className={'special-letter'}>G</span>omaa</a>
+                            <a className="nav-link"><span className={'special-letter'}>A</span>hmed <span className={'special-letter'}>G</span>omaa</a>
                         </li>
                     </div>
 
                     <div className={`sub-links ${this.state.opened ? 'sub-links-active' : ''}`}>
                         <li className="nav-item">
-                            <a  href={'/about'}  className="nav-link">About</a>
+                            <a  href={'#about'}  className="nav-link">About</a>
                         </li>
                         <li className="nav-item">
-                            <a  href={'/skills'}  className="nav-link">Skills</a>
+                            <a  href={'#skills'}  className="nav-link">Skills</a>
                         </li>
                         <li className="nav-item">
-                            <a  href={'/projects'}  className="nav-link">Projects</a>
+                            <a  href={'#projects'}  className="nav-link">Projects</a>
                         </li>
                         <li className="nav-item">
                             <a  href={'/education'}  className="nav-link">Education</a>

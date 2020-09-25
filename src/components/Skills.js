@@ -8,7 +8,7 @@ const levels = [94, 80, 71, 60, 70, 90, 85, 77, 90, 88, 60, 80, 70, 90]
 class Skills extends PureComponent {
     render() {
         return (
-            <div className={'skills'}>
+            <div id={'skills'} className={'skills'}>
                 <h1 className={'skills-header'}>My Skills:</h1>
                 {skills.map(skill => {
                     const skillIndex = skills.indexOf(skill)

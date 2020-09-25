@@ -1,0 +1,100 @@
+.projects {
+    flex: 1;
+    background-color: white;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.projects__header {
+    position: absolute;
+    top: 0;
+    font-style: italic;
+}
+
+.projects__item {
+    min-width: 200px;
+    flex: .25;
+    color: black;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.projects__desc {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-family: fantasy;
+    font-stretch: expanded;
+    padding: 10px;
+    font-weight: 200;
+
+}
+
+.projects__itemImg {
+    width: 150px;
+}
+
+.projects__itemGitHub {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    height: 0;
+    visibility: hidden;
+    transition: all ease-in-out .3s;
+}
+
+.projects__itemLiveLink {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    height: 0;
+    visibility: hidden;
+    transition: all ease-in-out .3s;
+}
+
+.projects__link > .MuiSvgIcon-root {
+    margin-right: 10px;
+}
+
+.projects__item:hover .projects__itemGitHub,
+.projects__item:hover .projects__itemLiveLink
+{
+    visibility: visible;
+    height: 50%;
+    background-color: black;
+
+}
+
+.projects__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}

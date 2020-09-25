@@ -8,6 +8,8 @@ import Navbar from "./Navbar";
 import About from "./About";
 import './css/app.css'
 import Skills from "./Skills";
+import Project from "./Project";
+import Contacts from "./Contacts";
 
 class App extends React.Component {
     render() {
@@ -17,6 +19,8 @@ class App extends React.Component {
                     <Navbar />
                     <About />
                     <Skills />
+                    <Project />
+                    <Contacts />
                 </div>
             </div>
 

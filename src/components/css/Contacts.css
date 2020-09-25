@@ -1,0 +1,37 @@
+.contacts {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.contacts a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 0px;
+    text-decoration: none;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, .2);
+}
+
+.contacts i {
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
+.contacts a:hover {
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.2s;
+
+}
+
+.contacts a:hover i {
+    color: white;
+    transition: all ease .3s;
+}
