@@ -29,7 +29,10 @@
     justify-content: space-around;
     flex-direction: column;
     border: 1px solid lightgray;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 20px 20px 14px -16px rgba(111,148,102,1);
+    -moz-box-shadow: 20px 20px 14px -16px rgba(111,148,102,1);
+    box-shadow: 20px 20px 14px -16px rgba(111,148,102,1);
+    transition: all ease-in-out .5s;
 }
 
 .projects__desc {
@@ -61,6 +64,7 @@
     height: 0;
     visibility: hidden;
     transition: all ease-in-out .3s;
+
 }
 
 .projects__itemLiveLink {
@@ -76,7 +80,7 @@
     text-decoration: none;
     height: 0;
     visibility: hidden;
-    transition: all ease-in-out .3s;
+    transition: height ease-in-out .3s, visibility ease-in-out .05s;
 }
 
 .projects__link > .MuiSvgIcon-root {
@@ -92,9 +96,23 @@
 
 }
 
+.projects__item:hover {
+    -webkit-box-shadow: 20px 20px 14px -16px rgba(0,0,0,1);
+    -moz-box-shadow: 20px 20px 14px -16px rgba(0,0,0,1);
+    box-shadow: 20px 20px 14px -16px rgba(0,0,0,1);
+}
+
 .projects__link {
     text-decoration: none;
     display: flex;
     align-items: center;
     color: white;
+    padding: 0 10px;
+    transition: all ease-in-out .2s;
+    border: white solid 1px;
+}
+
+.projects__link:hover {
+    background-color: white;
+    color: black;
 }

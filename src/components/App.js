@@ -10,6 +10,7 @@ import './css/app.css'
 import Skills from "./Skills";
 import Project from "./Project";
 import Contacts from "./Contacts";
+import Footer from "./Footer";
 
 class App extends React.Component {
     render() {
@@ -21,6 +22,7 @@ class App extends React.Component {
                     <Skills />
                     <Project />
                     <Contacts />
+                    <Footer />
                 </div>
             </div>
 

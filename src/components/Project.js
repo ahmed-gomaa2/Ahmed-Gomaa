@@ -35,7 +35,7 @@ const Project = () => {
         },
         {
             name: 'Todo App',
-            img: 'https://cdn.pixabay.com/photo/2016/03/31/19/50/checklist-1295319_960_720.png',
+            img: 'https://cdn.pixabay.com/photo/2016/09/04/11/51/checklist-1643781__340.png',
             gitHub: 'https://github.com/ahmed-gomaa2/todo-app',
             link: 'https://todo-cd3fe.web.app/',
             desc: 'I built a Todo App with some good functionality like planning, overdue tasks and complete tasks.'
